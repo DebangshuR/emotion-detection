@@ -196,7 +196,7 @@ test_texts = [
     "I'm so excited for the party tonight!"
 ]
 
-print("\n=== Demo Predictions ===")
+print("\n===Predictions ===")
 for text in test_texts:
     try:
         emotion, confidence = predict_emotion(text)
